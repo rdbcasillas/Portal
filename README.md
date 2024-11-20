@@ -1,29 +1,41 @@
-# Portal
+# Portal - A Space for Human Flourishing
 
-This template should help get you started developing with Vue 3 in Vite.
+<div align="center">
+ <img src="src/assets/portalicon.png" alt="Portal Logo" width="200"/>
+</div>
 
-## Recommended IDE Setup
+## About Portal
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Portal is a physical community space fostering human growth across three dimensions:
 
-## Customize configuration
+- **Think**: Make better maps of reality and improve our map-making
+- **Feel**: Develop emotional resilience and forge deeper connections with self and others
+- **Do**: Convert knowledge into meaningful change: tackle crucial problems and build towards a flourishing future
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## Features
 
-## Project Setup
+- 🏠 **Physical Spaces**
+- Dedicated meditation & authentic relating room
+- Workshop & seminar space
+- Curated library
+- Co-working community hall
 
-```sh
-npm install
-```
+- 📅 **Events**
+- Regular meditation sessions
+- Workshop series
+- Reading groups
+- Community discussions
 
-### Compile and Hot-Reload for Development
+- 🌟 **Activities across domains**
+- Rationality & epistemology
+- Emotional development & relating practices
+- Productivity systems & impact strategy
+- And more...
 
-```sh
-npm run dev
-```
+## Tech Stack
 
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+- Vue 3 with Composition API
+- Vite for build tooling
+- TailwindCSS for styling
+- Vue Router for navigation
+- Vue-Cal for event management

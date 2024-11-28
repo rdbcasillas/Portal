@@ -1,0 +1,175 @@
+{
+  "nodes": [
+    {
+      "id": "rationality",
+      "label": "Rationality",
+      "category": "core_concept",
+      "image": "path/to/rationality-icon.png",
+      "description": "The art of thinking clearly and updating beliefs based on evidence",
+      "resources": [
+        {
+          "name": "LessWrong",
+          "url": "https://www.lesswrong.com",
+          "logo": "https://www.lesswrong.com/favicon.ico",
+          "description": "Community blog dedicated to refining the art of human rationality"
+        },
+        {
+          "name": "CFAR Handbook",
+          "url": "https://www.rationality.org/resources/handbook",
+          "logo": "https://www.lesswrong.com/favicon.ico",
+          "description": "Practical techniques for improving rational thinking"
+        }
+      ]
+    },
+    {
+      "id": "epistemology",
+      "label": "Epistemology",
+      "category": "core_concept",
+      "image": "path/to/epistemology-icon.png",
+      "description": "How do we know what we know?",
+      "resources": [
+        {
+          "name": "Stanford Encyclopedia",
+          "url": "https://plato.stanford.edu/entries/epistemology/",
+          "logo": "https://plato.stanford.edu/favicon.ico",
+          "description": "Comprehensive overview of epistemology"
+        }
+      ]
+    },
+    {
+      "id": "cognitive_science",
+      "label": "Cognitive Science",
+      "category": "field",
+      "image": "path/to/cogsci-icon.png",
+      "description": "Understanding how the mind works",
+      "resources": [
+        {
+          "name": "Cognitive Science Society",
+          "url": "https://cognitivesciencesociety.org/",
+          "logo": "https://www.lesswrong.com/favicon.ico",
+          "description": "Leading organization in cognitive science research"
+        }
+      ]
+    },
+    {
+      "id": "decision_making",
+      "label": "Decision Making",
+      "category": "skill",
+      "image": "path/to/decision-icon.png",
+      "description": "Frameworks and tools for better decisions",
+      "resources": [
+        {
+          "name": "Clearer Thinking",
+          "url": "https://www.clearerthinking.org/",
+          "logo": "path/to/clearerthinking-logo.png",
+          "description": "Tools and training for better decision making"
+        }
+      ]
+    },
+    {
+      "id": "mental_models",
+      "label": "Mental Models",
+      "category": "tools",
+      "image": "path/to/models-icon.png",
+      "description": "Frameworks for understanding the world",
+      "resources": [
+        {
+          "name": "Farnam Street",
+          "url": "https://fs.blog/mental-models/",
+          "logo": "path/to/fs-logo.png",
+          "description": "Comprehensive guide to mental models"
+        }
+      ]
+    },
+    {
+      "id": "x_risks",
+      "label": "Existential Risks",
+      "category": "focus_area",
+      "image": "path/to/xrisk-icon.png",
+      "description": "Understanding and mitigating existential risks",
+      "resources": [
+        {
+          "name": "80,000 Hours",
+          "url": "https://80000hours.org/problem-profiles/",
+          "logo": "path/to/80k-logo.png",
+          "description": "Research on global catastrophic risks"
+        }
+      ]
+    },
+    {
+      "id": "forecasting",
+      "label": "Forecasting",
+      "category": "skill",
+      "image": "path/to/forecast-icon.png",
+      "description": "Predicting future outcomes accurately",
+      "resources": [
+        {
+          "name": "Metaculus",
+          "url": "https://www.metaculus.com",
+          "logo": "path/to/metaculus-logo.png",
+          "description": "Prediction platform and community"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "from": "rationality",
+      "to": "epistemology",
+      "strength": 0.8,
+      "description": "Foundation concepts"
+    },
+    {
+      "from": "rationality",
+      "to": "decision_making",
+      "strength": 0.9,
+      "description": "Applied rationality"
+    },
+    {
+      "from": "mental_models",
+      "to": "decision_making",
+      "strength": 0.7,
+      "description": "Tools for decisions"
+    },
+    {
+      "from": "cognitive_science",
+      "to": "rationality",
+      "strength": 0.6,
+      "description": "Scientific basis"
+    },
+    {
+      "from": "forecasting",
+      "to": "x_risks",
+      "strength": 0.7,
+      "description": "Predicting risks"
+    },
+    {
+      "from": "forecasting",
+      "to": "mental_models",
+      "strength": 0.5,
+      "description": "Models for prediction"
+    }
+  ],
+  "categories": {
+    "core_concept": {
+      "color": "#8b5cf6",
+      "size": 45
+    },
+    "field": {
+      "color": "#6366f1",
+      "size": 40
+    },
+    "skill": {
+      "color": "#a78bfa",
+      "size": 35
+    },
+    "tools": {
+      "color": "#c4b5fd",
+      "size": 35
+    },
+    "focus_area": {
+      "color": "#7c3aed",
+      "size": 40
+    }
+  }
+}

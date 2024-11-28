@@ -6,13 +6,19 @@
       <div
         class="absolute inset-0 bg-gradient-to-br from-indigo-900 via-purple-800 to-blue-900"
       ></div>
+      <!-- <div
+        class="absolute inset-0 bg-gradient-to-br"
+        :style="{
+          background: `linear-gradient(to bottom right, ${primaryColor}, ${secondaryColor})`,
+        }"
+      ></div> -->
       <!-- Star Field -->
-      <StarField :starCount="50" />
+      <StarField :count="starCount" :speed="starSpeed" />
     </div>
 
     <!-- Floating Shapes -->
     <div class="fixed inset-0 z-30 pointer-events-none">
-      <FloatingShapes :count="12" />
+      <FloatingShapes :count="shapeCount" />
     </div>
 
     <!-- Content Container -->
@@ -31,12 +37,13 @@
             </p>
             <div class="flex flex-wrap justify-center gap-6 mt-12">
               <button
+                @click="$router.push('/journey')"
                 class="px-8 py-4 rounded-full text-lg font-medium bg-transparent border border-green-500 text-green-500 hover:bg-green-500 hover:text-white transition-all duration-300"
               >
                 Begin Your Journey
               </button>
               <button
-                @click="scrollToSpaces"
+                @click="$router.push('/spaces')"
                 class="px-8 py-4 rounded-full text-lg font-medium bg-transparent border border-green-500 text-green-500 hover:bg-green-500 hover:text-white transition-all duration-300"
               >
                 Explore Spaces
@@ -56,10 +63,18 @@
         </div>
       </section>
     </div>
+    <PlaygroundControls
+      @update:starCount="starCount = $event"
+      @update:starSpeed="starSpeed = $event"
+      @update:shapeCount="shapeCount = $event"
+      @update:primaryColor="primaryColor = $event"
+      @update:secondaryColor="secondaryColor = $event"
+    />
   </div>
 </template>
 
 <script>
+import PlaygroundControls from "@/components/PlaygroundControls.vue";
 import FloatingShapes from "@/components/FloatingShapes.vue";
 import StarField from "@/components/StarField.vue";
 import ExperienceCategories from "@/components/ExperienceCategories.vue";
@@ -72,9 +87,15 @@ export default {
     StarField,
     ExperienceCategories,
     PhysicalSpaces,
+    PlaygroundControls,
   },
   data() {
     return {
+      starCount: 50,
+      starSpeed: 3,
+      shapeCount: 12,
+      primaryColor: "#4c1d95",
+      secondaryColor: "#8b5cf6",
       menuItems: [
         { name: "Spaces", path: "/spaces" },
         { name: "Events", path: "/events" },

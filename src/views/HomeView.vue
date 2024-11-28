@@ -3,15 +3,15 @@
     <!-- Background Elements Container -->
     <div class="fixed inset-0 overflow-hidden z-0">
       <!-- Gradient Background -->
-      <div
-        class="absolute inset-0 bg-gradient-to-br from-indigo-900 via-purple-800 to-blue-900"
-      ></div>
       <!-- <div
+        class="absolute inset-0 bg-gradient-to-br from-indigo-900 via-purple-800 to-blue-900"
+      ></div> -->
+      <div
         class="absolute inset-0 bg-gradient-to-br"
         :style="{
           background: `linear-gradient(to bottom right, ${primaryColor}, ${secondaryColor})`,
         }"
-      ></div> -->
+      ></div>
       <!-- Star Field -->
       <StarField :count="starCount" :speed="starSpeed" />
     </div>

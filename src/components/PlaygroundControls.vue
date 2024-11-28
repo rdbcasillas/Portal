@@ -109,12 +109,20 @@
             <span class="text-sm">🎨</span>
             <h4 class="font-medium">Atmosphere</h4>
           </div>
-          <div class="grid grid-cols-2 gap-4">
+          <div class="grid grid-cols-3 gap-4">
             <div>
               <label class="text-sm text-purple-200">Primary</label>
               <input
                 type="color"
                 v-model="primaryColor"
+                class="w-full h-8 rounded cursor-pointer"
+              />
+            </div>
+            <div>
+              <label class="text-sm text-purple-200">Via</label>
+              <input
+                type="color"
+                v-model="viaColor"
                 class="w-full h-8 rounded cursor-pointer"
               />
             </div>
@@ -144,14 +152,20 @@
 <script>
 export default {
   name: "PlaygroundControls",
+  props: {
+    primaryColor: String,
+    viaColor: String,
+    secondaryColor: String,
+  },
   data() {
     return {
       isOpen: false,
       starCount: 50,
       starSpeed: 3,
       shapeCount: 12,
-      primaryColor: "#4c1d95",
-      secondaryColor: "#8b5cf6",
+      primaryColor: "#312e81", // indigo-900
+      viaColor: "#6b21a8", // purple-800
+      secondaryColor: "#1e3a8a", // blue-900
     };
   },
   watch: {
@@ -168,6 +182,9 @@ export default {
     primaryColor(newVal) {
       this.$emit("update:primaryColor", newVal);
     },
+    viaColor(newVal) {
+      this.$emit("update:viaColor", newVal);
+    },
     secondaryColor(newVal) {
       this.$emit("update:secondaryColor", newVal);
     },
@@ -177,8 +194,9 @@ export default {
       this.starCount = 50;
       this.starSpeed = 3;
       this.shapeCount = 12;
-      this.primaryColor = "#4c1d95";
-      this.secondaryColor = "#8b5cf6";
+      this.$emit("update:primaryColor", "#312e81");
+      this.$emit("update:viaColor", "#6b21a8");
+      this.$emit("update:secondaryColor", "#1e3a8a");
     },
   },
 };

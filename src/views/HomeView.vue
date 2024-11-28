@@ -7,9 +7,9 @@
         class="absolute inset-0 bg-gradient-to-br from-indigo-900 via-purple-800 to-blue-900"
       ></div> -->
       <div
-        class="absolute inset-0 bg-gradient-to-br"
+        class="absolute inset-0 bg-gradient-to-br from-indigo-900 via-purple-800 to-blue-900"
         :style="{
-          background: `linear-gradient(to bottom right, ${primaryColor}, ${secondaryColor})`,
+          background: `linear-gradient(to bottom right, ${primaryColor}, ${viaColor}, ${secondaryColor})`,
         }"
       ></div>
       <!-- Star Field -->
@@ -68,6 +68,7 @@
       @update:starSpeed="starSpeed = $event"
       @update:shapeCount="shapeCount = $event"
       @update:primaryColor="primaryColor = $event"
+      @update:viaColor="viaColor = $event"
       @update:secondaryColor="secondaryColor = $event"
     />
   </div>
@@ -94,8 +95,9 @@ export default {
       starCount: 50,
       starSpeed: 3,
       shapeCount: 12,
-      primaryColor: "#4c1d95",
-      secondaryColor: "#8b5cf6",
+      primaryColor: "#312e81", // indigo-900
+      viaColor: "#6b21a8", // purple-800
+      secondaryColor: "#1e3a8a", // blue-900
       menuItems: [
         { name: "Spaces", path: "/spaces" },
         { name: "Events", path: "/events" },

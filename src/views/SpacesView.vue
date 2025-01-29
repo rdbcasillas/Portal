@@ -44,7 +44,7 @@
           </div>
           <div class="order-1 md:order-2">
             <img
-              src="@/assets/images/meditationarea.jpg"
+              src="@/assets/images/meditationarea2.jpeg"
               alt="Meditation Space"
               class="rounded-xl shadow-lg w-full h-[300px] object-cover"
             />
@@ -55,7 +55,7 @@
         <div class="grid md:grid-cols-2 gap-8 items-center">
           <div class="order-2">
             <img
-              src="@/assets/images/coworkingarea.jpg"
+              src="@/assets/images/workshoparea2.jpeg"
               alt="Workshop Space"
               class="rounded-xl shadow-lg w-full h-[300px] object-cover"
             />
@@ -111,7 +111,7 @@
           </div>
           <div class="order-1 md:order-2">
             <img
-              src="@/assets/images/PortalHall2.jpg"
+              src="@/assets/images/library1.jpeg"
               alt="Library Space"
               class="rounded-xl shadow-lg w-full h-[300px] object-cover"
             />
@@ -119,10 +119,17 @@
         </div>
 
         <!-- Community Space -->
-        <div class="grid md:grid-cols-2 gap-8 items-center">
+        <div class="grid md:grid-cols-3 gap-8 items-center">
           <div class="order-2">
             <img
-              src="@/assets/images/PortalHall2.jpg"
+              src="@/assets/images/PortalHallArea.jpg"
+              alt="Community Space"
+              class="rounded-xl shadow-lg w-full h-[300px] object-cover"
+            />
+          </div>
+          <div class="order-2">
+            <img
+              src="@/assets/images/coworkingarea.jpg"
               alt="Community Space"
               class="rounded-xl shadow-lg w-full h-[300px] object-cover"
             />

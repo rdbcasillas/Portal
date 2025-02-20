@@ -218,16 +218,16 @@
               <!-- Social links -->
               <div class="flex justify-center space-x-4 mt-4">
                 <a
-                  href="#"
+                  href="https://vatsalmehra.com"
                   class="text-purple-300 hover:text-white transition-colors"
                 >
-                  LinkedIn
+                  Website
                 </a>
                 <a
-                  href="#"
+                  href="https://vats.substack.com"
                   class="text-purple-300 hover:text-white transition-colors"
                 >
-                  Twitter
+                  Substack
                 </a>
               </div>
             </div>
@@ -317,7 +317,7 @@
               <div class="relative w-32 h-32 mx-auto mb-6">
                 <img
                   src="@/assets/images/nishitpic.jpeg"
-                  alt="Team Member"
+                  alt="Advisor"
                   class="w-full h-full object-cover rounded-full"
                 />
                 <div
@@ -328,6 +328,41 @@
                 Nishit
               </h3>
               <p class="text-purple-100 text-center">EA Community Builder</p>
+              <!-- Social links -->
+              <div class="flex justify-center space-x-4 mt-4">
+                <a
+                  href="#"
+                  class="text-purple-300 hover:text-white transition-colors"
+                >
+                  LinkedIn
+                </a>
+                <a
+                  href="#"
+                  class="text-purple-300 hover:text-white transition-colors"
+                >
+                  Twitter
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="team-member group">
+            <div
+              class="relative overflow-hidden rounded-xl bg-indigo-800/30 backdrop-blur-sm p-8 border border-purple-500/30 hover:border-purple-500/60 transition-all duration-500"
+            >
+              <div class="relative w-32 h-32 mx-auto mb-6">
+                <img
+                  src="@/assets/images/adityapic.jpg"
+                  alt="Advisor"
+                  class="w-full h-full object-cover rounded-full"
+                />
+                <div
+                  class="absolute inset-0 rounded-full border-2 border-purple-500/50 group-hover:border-purple-500 transition-colors duration-500"
+                ></div>
+              </div>
+              <h3 class="text-xl font-bold text-white text-center mb-2">
+                Aditya Prasad
+              </h3>
+              <p class="text-purple-100 text-center">AI Safety Researcher</p>
               <!-- Social links -->
               <div class="flex justify-center space-x-4 mt-4">
                 <a

@@ -12,7 +12,7 @@
               alt="Portal Logo"
               class="h-12 w-12"
             />
-            <span class="portal-text">⦿ Portal</span>
+            <span class="portal-text"> P⦿rtal</span>
           </router-link>
 
           <div class="hidden md:flex items-center space-x-8">
@@ -57,6 +57,15 @@ export default {
 </script>
 
 <style scoped>
+body {
+  @apply font-sans text-white bg-purple-900;
+}
+h1,
+h2,
+h3 {
+  @apply font-serif;
+}
+
 .portal-text {
   background: linear-gradient(
     to right,

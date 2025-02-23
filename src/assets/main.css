@@ -1,3 +1,7 @@
+@import "@fontsource/eb-garamond";
+@import "@fontsource/ibm-plex-sans";
+@import "@fontsource/lora";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

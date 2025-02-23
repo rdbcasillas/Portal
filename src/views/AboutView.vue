@@ -17,7 +17,7 @@
           Motivation
         </h1>
         <div class="prose prose-lg prose-invert">
-          <p class="text-xl text-purple-100 leading-relaxed">
+          <p class="text-xl text-purple-100 leading-relaxed text-justify">
             Portal emerged from a hunger for spaces that nurture deeper human
             connection, experiential learning, and meaningful collaboration. In
             a world of superficial interactions and standardized education,
@@ -152,47 +152,6 @@
         </div>
       </section>
 
-      <!-- Space Showcase -->
-      <section class="px-4 max-w-6xl mx-auto mb-24">
-        <h2 class="text-3xl font-bold text-white mb-12">Our Space</h2>
-        <div class="grid md:grid-cols-2 gap-8">
-          <!-- Image placeholders - replace with actual images -->
-          <div
-            class="space-image rounded-xl overflow-hidden aspect-video relative group cursor-pointer"
-          >
-            <img
-              src="@/assets/images/PortalHallArea.jpg"
-              alt="Cozy Common Area"
-              class="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110"
-            />
-            <div
-              class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end"
-            >
-              <p class="text-white p-6">
-                Common area for co-working, discussions or just chilling
-              </p>
-            </div>
-          </div>
-          <div
-            class="space-image rounded-xl overflow-hidden aspect-video relative group cursor-pointer"
-          >
-            <img
-              src="@/assets/images/PortalHall2.jpg"
-              alt="Cozy Common Area"
-              class="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110"
-            />
-            <div
-              class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end"
-            >
-              <p class="text-white p-6">
-                Common area for co-working, discussions or just chilling
-              </p>
-            </div>
-          </div>
-          <!-- Add more space images -->
-        </div>
-      </section>
-
       <!-- Team Section with Hover Effects -->
       <section class="px-4 max-w-6xl mx-auto">
         <h2 class="text-3xl font-bold text-white mb-12">Our Team</h2>
@@ -255,16 +214,10 @@
               <!-- Social links -->
               <div class="flex justify-center space-x-4 mt-4">
                 <a
-                  href="#"
+                  href="https://in.linkedin.com/in/harshitagga"
                   class="text-purple-300 hover:text-white transition-colors"
                 >
                   LinkedIn
-                </a>
-                <a
-                  href="#"
-                  class="text-purple-300 hover:text-white transition-colors"
-                >
-                  Twitter
                 </a>
               </div>
             </div>
@@ -287,19 +240,12 @@
                 Manasvi
               </h3>
               <p class="text-purple-100 text-center">Design/Marketing</p>
-              <!-- Social links -->
               <div class="flex justify-center space-x-4 mt-4">
                 <a
-                  href="#"
+                  href="https://www.instagram.com/sakuthestudio"
                   class="text-purple-300 hover:text-white transition-colors"
                 >
-                  LinkedIn
-                </a>
-                <a
-                  href="#"
-                  class="text-purple-300 hover:text-white transition-colors"
-                >
-                  Twitter
+                  Instagram
                 </a>
               </div>
             </div>
@@ -366,16 +312,10 @@
               <!-- Social links -->
               <div class="flex justify-center space-x-4 mt-4">
                 <a
-                  href="#"
+                  href="https://x.com/adityaarpitha"
                   class="text-purple-300 hover:text-white transition-colors"
                 >
-                  LinkedIn
-                </a>
-                <a
-                  href="#"
-                  class="text-purple-300 hover:text-white transition-colors"
-                >
-                  Twitter
+                  X/Twitter
                 </a>
               </div>
             </div>
@@ -401,16 +341,10 @@
               <!-- Social links -->
               <div class="flex justify-center space-x-4 mt-4">
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/in/kunaaal/"
                   class="text-purple-300 hover:text-white transition-colors"
                 >
                   LinkedIn
-                </a>
-                <a
-                  href="#"
-                  class="text-purple-300 hover:text-white transition-colors"
-                >
-                  Twitter
                 </a>
               </div>
             </div>

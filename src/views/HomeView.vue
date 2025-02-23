@@ -29,22 +29,27 @@
           class="h-full flex items-center justify-center text-center px-4 pb-20 pt-28"
         >
           <div class="max-w-4xl space-y-8">
-            <h1 class="text-6xl font-bold portal-text2">Portal</h1>
+            <!-- Animated Portal Heading -->
+            <h1 class="text-6xl font-bold portal-text2 animate-glow">P⦿rtal</h1>
+
+            <!-- Improved Text -->
             <p class="text-xl text-purple-100 leading-relaxed">
-              A space for those seeking truth, depth, and impact. Where rational
-              inquiry meets emotional wisdom, and understanding transforms into
-              meaningful action.
+              A space for those who seek depth, clarity, and transformation.
+              Where rational inquiry meets emotional wisdom and insight turns
+              into action.
             </p>
+
+            <!-- Better Buttons with Gradient & Hover Effects -->
             <div class="flex flex-wrap justify-center gap-6 mt-12">
               <button
                 @click="$router.push('/journey')"
-                class="px-8 py-4 rounded-full text-lg font-medium bg-transparent border border-green-500 text-green-500 hover:bg-green-500 hover:text-white transition-all duration-300"
+                class="btn-glow bg-gradient-to-r from-green-400 to-green-600"
               >
                 Begin Your Journey
               </button>
               <button
                 @click="$router.push('/spaces')"
-                class="px-8 py-4 rounded-full text-lg font-medium bg-transparent border border-green-500 text-green-500 hover:bg-green-500 hover:text-white transition-all duration-300"
+                class="btn-glow bg-gradient-to-r from-blue-400 to-blue-600"
               >
                 Explore Spaces
               </button>
@@ -204,5 +209,32 @@ export default {
 
 .magical-button:hover {
   box-shadow: 0 0 25px rgba(167, 139, 250, 0.5);
+}
+
+/* Animated Glow Effect for the "Portal" Heading */
+/* @keyframes glow {
+  0% {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  }
+  50% {
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+  }
+  100% {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  }
+}
+.animate-glow {
+  animation: glow 2s infinite alternate ease-in-out;
+} */
+
+/* Gradient Buttons with Glow & Hover Effects */
+.btn-glow {
+  @apply px-8 py-4 rounded-full text-lg font-medium text-white transition-all duration-300 shadow-lg;
+  box-shadow: 0px 5px 15px rgba(0, 255, 128, 0.2);
+}
+
+.btn-glow:hover {
+  transform: translateY(-2px) scale(1.05);
+  box-shadow: 0px 8px 20px rgba(0, 255, 128, 0.4);
 }
 </style>

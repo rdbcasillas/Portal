@@ -33,7 +33,7 @@
             <h3 class="text-xl font-bold text-white mb-3">Workshop Studio</h3>
             <p class="text-purple-200">
               Our flexible activity space hosting workshops, seminars, group
-              discussions, and various learning experiences. Adaptable for
+              discussions and various learning experiences. Adaptable for
               different group sizes and session types.
             </p>
           </div>
@@ -50,8 +50,8 @@
             <h3 class="text-xl font-bold text-white mb-3">Reading Library</h3>
             <p class="text-purple-200">
               A quiet sanctuary housing our curated collection of books. Perfect
-              for focused reading, research, and quiet contemplation. A
-              carefully selected library to expand minds.
+              for focused reading, research and quiet contemplation. A
+              thoughtfully curated collection that blends wisdom with wonder.
             </p>
           </div>
         </div>
@@ -66,9 +66,9 @@
             <div class="space-icon text-4xl mb-4">💫</div>
             <h3 class="text-xl font-bold text-white mb-3">Community Hall</h3>
             <p class="text-purple-200">
-              Our central space for co-working, casual interactions, and
-              community building. A vibrant environment where ideas flow and
-              connections happen naturally.
+              Our central space for co-working, casual interactions, and shared
+              moments over food and drinks. A vibrant environment where ideas
+              flow, connections spark, and conversations unfold naturally..
             </p>
           </div>
         </div>

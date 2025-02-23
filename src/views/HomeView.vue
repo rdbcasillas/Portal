@@ -42,10 +42,10 @@
             <!-- Better Buttons with Gradient & Hover Effects -->
             <div class="flex flex-wrap justify-center gap-6 mt-12">
               <button
-                @click="$router.push('/journey')"
+                @click="$router.push('/about')"
                 class="btn-glow bg-gradient-to-r from-green-400 to-green-600"
               >
-                Begin Your Journey
+                Learn More
               </button>
               <button
                 @click="$router.push('/spaces')"

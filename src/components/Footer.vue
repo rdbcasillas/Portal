@@ -75,11 +75,14 @@ export default {
       this.message = "";
 
       try {
-        const response = await fetch("http://localhost:3001/subscribe", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ email: this.email }),
-        });
+        const response = await fetch(
+          "https://portal-58iu.onrender.com/subscribe",
+          {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ email: this.email }),
+          }
+        );
 
         const data = await response.json();
         if (!response.ok) throw new Error(data.error || "Subscription failed");

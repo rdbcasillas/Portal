@@ -75,29 +75,21 @@ export default {
       this.message = "";
 
       try {
-        const response = await fetch("https://connect.mailerlite.com/api", {
+        const response = await fetch("http://localhost:3001/subscribe", {
           method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-            Authorization: `Bearer ${process.env.MAILERLITE_API_KEY}`,
-          },
-          body: JSON.stringify({
-            email: this.email,
-          }),
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ email: this.email }),
         });
 
-        if (response.ok) {
-          this.message = "✅ Thanks for subscribing!";
-          this.messageClass = "text-green-400";
-          this.email = ""; // Clear input field
-        } else {
-          const errorData = await response.json();
-          this.message = `❌ Error: ${errorData.error.message}`;
-          this.messageClass = "text-red-400";
-        }
+        const data = await response.json();
+        if (!response.ok) throw new Error(data.error || "Subscription failed");
+
+        this.message = "✅ Thanks for subscribing!";
+        this.messageClass = "text-green-400";
+        this.email = "";
       } catch (error) {
         console.error("Subscription failed", error);
-        this.message = "❌ Something went wrong. Try again!";
+        this.message = `❌ ${error.message}`;
         this.messageClass = "text-red-400";
       } finally {
         this.loading = false;

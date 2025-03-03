@@ -38,6 +38,14 @@ const router = createRouter({
       component: () => import("../views/JourneyView.vue"),
     },
     {
+      path: "/resources",
+      name: "resources",
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import("../views/Resources.vue"),
+    },
+    {
       path: "/spaces",
       name: "spaces",
       // route level code-splitting

@@ -1,7 +1,7 @@
 <template>
-  <div class="magical-portal min-h-screen relative">
+  <div class="magical-portal relative">
     <!-- Background Elements Container -->
-    <div class="fixed inset-0 overflow-hidden z-0">
+    <div class="fixed inset-0 z-0">
       <!-- Gradient Background -->
       <!-- <div
         class="absolute inset-0 bg-gradient-to-br from-indigo-900 via-purple-800 to-blue-900"
@@ -20,63 +20,63 @@
     <div class="fixed inset-0 z-30 pointer-events-none">
       <FloatingShapes :count="shapeCount" />
     </div>
+  </div>
 
-    <!-- Content Container -->
-    <div class="relative z-20">
-      <!-- Hero Section -->
-      <section class="min-h-screen">
-        <div
-          class="h-full flex items-center justify-center text-center px-4 pb-20 pt-28"
-        >
-          <div class="max-w-4xl space-y-8">
-            <!-- Animated Portal Heading -->
-            <h1 class="text-6xl font-bold portal-text2 animate-glow">P⦿rtal</h1>
+  <!-- Content Container -->
+  <div class="relative z-20 min-h-screen flex flex-col">
+    <!-- Hero Section -->
+    <section class="flex-grow">
+      <div
+        class="h-full flex items-center justify-center text-center px-4 pb-20 pt-28"
+      >
+        <div class="max-w-4xl space-y-8">
+          <!-- Animated Portal Heading -->
+          <h1 class="text-6xl font-bold portal-text2 animate-glow">P⦿rtal</h1>
 
-            <!-- Improved Text -->
-            <p class="text-xl text-purple-100 leading-relaxed">
-              A space for those who seek depth, clarity, and transformation.
-              Where rational inquiry meets emotional wisdom and insight turns
-              into action.
-            </p>
+          <!-- Improved Text -->
+          <p class="text-xl text-purple-100 leading-relaxed">
+            A space for those who seek depth, clarity, and transformation. Where
+            rational inquiry meets emotional wisdom and insight turns into
+            action.
+          </p>
 
-            <!-- Better Buttons with Gradient & Hover Effects -->
-            <div class="flex flex-wrap justify-center gap-6 mt-12">
-              <button
-                @click="$router.push('/about')"
-                class="btn-glow bg-gradient-to-r from-green-400 to-green-600"
-              >
-                Learn More
-              </button>
-              <button
-                @click="$router.push('/spaces')"
-                class="btn-glow bg-gradient-to-r from-blue-400 to-blue-600"
-              >
-                Explore Spaces
-              </button>
-            </div>
+          <!-- Better Buttons with Gradient & Hover Effects -->
+          <div class="flex flex-wrap justify-center gap-6 mt-12">
+            <button
+              @click="$router.push('/about')"
+              class="btn-glow bg-gradient-to-r from-green-400 to-green-600"
+            >
+              Learn More
+            </button>
+            <button
+              @click="$router.push('/spaces')"
+              class="btn-glow bg-gradient-to-r from-blue-400 to-blue-600"
+            >
+              Explore Spaces
+            </button>
           </div>
         </div>
+      </div>
 
-        <!-- Experience Categories -->
-        <ExperienceCategories />
-      </section>
+      <!-- Experience Categories -->
+      <ExperienceCategories />
+    </section>
 
-      <!-- Spaces Section -->
-      <section id="spaces-section" class="relative">
-        <div class="max-w-7xl mx-auto px-6">
-          <PhysicalSpaces />
-        </div>
-      </section>
-    </div>
-    <PlaygroundControls
-      @update:starCount="starCount = $event"
-      @update:starSpeed="starSpeed = $event"
-      @update:shapeCount="shapeCount = $event"
-      @update:primaryColor="primaryColor = $event"
-      @update:viaColor="viaColor = $event"
-      @update:secondaryColor="secondaryColor = $event"
-    />
+    <!-- Spaces Section -->
+    <section id="spaces-section" class="relative">
+      <div class="max-w-7xl mx-auto px-6">
+        <PhysicalSpaces />
+      </div>
+    </section>
   </div>
+  <PlaygroundControls
+    @update:starCount="starCount = $event"
+    @update:starSpeed="starSpeed = $event"
+    @update:shapeCount="shapeCount = $event"
+    @update:primaryColor="primaryColor = $event"
+    @update:viaColor="viaColor = $event"
+    @update:secondaryColor="secondaryColor = $event"
+  />
 </template>
 
 <script>

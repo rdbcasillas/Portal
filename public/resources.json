@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "LessWrong",
+    "description": "A community blog on rationality & epistemology.",
+    "link": "https://www.lesswrong.com",
+    "category": "Blog",
+    "tags": ["Rationality", "Epistemology", "Community"],
+    "image": "https://www.lesswrong.com/favicon.ico"
+  },
+  {
+    "id": 2,
+    "title": "Meaningness",
+    "description": "Exploring meaning & sense-making in modern life.",
+    "link": "https://meaningness.com",
+    "category": "Blog",
+    "tags": ["Meaning", "Philosophy", "Existentialism"],
+    "image": "https://meaningness.com/favicon.ico"
+  },
+  {
+    "id": 3,
+    "title": "Introduction to AI Safety, Ethics, and Society",
+    "description": "How do we ensure that AI is deployed in ways that are ethical and have positive societal impact?",
+    "link": "https://www.aisafetybook.com",
+    "category": "Book",
+    "tags": ["Metacrises", "AI"],
+    "image": "https://www.aisafetybook.com/favicon.ico"
+  }
+]

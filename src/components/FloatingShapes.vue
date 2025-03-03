@@ -35,7 +35,7 @@ export default {
         left: `${Math.random() * 100}%`,
         size: `${Math.random() * (60 - 20) + 20}px`,
         delay: `${Math.random() * 5}s`, // Reduced from 10s to 5s
-        opacity: (Math.random() * 0.2 + 0.1).toFixed(2),
+        opacity: (Math.random() * 0.1).toFixed(2),
         isInteracting: false,
         animationVariant: Math.floor(Math.random() * 3) + 1, // 1, 2, or 3
       }));
@@ -78,6 +78,7 @@ export default {
 
 .circle {
   border-radius: 50%;
+  opacity: 0.5;
 }
 
 .triangle {
@@ -106,6 +107,7 @@ export default {
 
 .diamond {
   transform: rotate(45deg);
+  opacity: 0.5;
 }
 
 /* Different movement patterns */

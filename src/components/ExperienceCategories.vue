@@ -114,17 +114,17 @@ export default {
 }
 
 /* Hover effect - Make hovered card stand out */
-.group:hover .category-card {
-  opacity: 0.6; /* Dim all cards */
-  transform: scale(0.98); /* Slight shrink for inactive cards */
-}
+/* .group:hover .category-card {
+  opacity: 0.6; 
+  transform: scale(0.98); /
+} */
 
 /* Keep the hovered card bright and scaled */
-.group:hover .category-card:hover {
+/* .group:hover .category-card:hover {
   opacity: 1 !important;
   transform: translateY(-5px) scale(1.03);
   box-shadow: 0px 10px 20px rgba(255, 255, 255, 0.1);
-}
+} */
 
 .category-card:hover h2,
 .category-card:hover p,

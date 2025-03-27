@@ -18,7 +18,7 @@
               Join our WhatsApp group for updates and announcements:
             </p>
             <a
-              href="https://chat.whatsapp.com/YOUR-GROUP-LINK"
+              href="https://chat.whatsapp.com/Llhc56kCl51L4AtvUnUrHX"
               target="_blank"
               class="inline-flex items-center gap-2 px-6 py-3 bg-green-600 hover:bg-green-700 text-white rounded-lg transition-colors"
             >

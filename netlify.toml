@@ -4,6 +4,19 @@
   status = 200
   force = false
 
+
+[[redirects]]
+  from = "http://enterportal.org/*"
+  to = "https://www.enterportal.org/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.enterportal.org/*"
+  to = "https://www.enterportal.org/:splat"
+  status = 301
+  force = true
+
 [[redirects]]
   from = "https://enterportal.org/*"
   to = "https://www.enterportal.org/:splat"

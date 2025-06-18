@@ -1,4 +1,3 @@
-<!-- src/views/SpacesView.vue -->
 <template>
   <div
     class="min-h-screen bg-gradient-to-br from-indigo-900 via-purple-800 to-blue-900 py-20"
@@ -52,10 +51,17 @@
         </div>
 
         <!-- Workshop Space -->
-        <div class="grid md:grid-cols-2 gap-8 items-center">
+        <div class="grid md:grid-cols-3 gap-8 items-center">
           <div class="order-2">
             <img
-              src="@/assets/images/workshoparea2.jpeg"
+              src="@/assets/images/portalworkshop1.jpg"
+              alt="Workshop Space"
+              class="rounded-xl shadow-lg w-full h-[300px] object-cover"
+            />
+          </div>
+          <div class="order-2">
+            <img
+              src="@/assets/images/portalworkshop2.jpg"
               alt="Workshop Space"
               class="rounded-xl shadow-lg w-full h-[300px] object-cover"
             />
@@ -81,6 +87,44 @@
               <li class="flex items-center gap-2">
                 <span class="text-green-400">✦</span> Whiteboards and
                 collaboration tools
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8 items-center">
+          <div class="order-2">
+            <img
+              src="@/assets/images/coworking1.jpeg"
+              alt="Community Space"
+              class="rounded-xl shadow-lg w-full h-[300px] object-cover"
+            />
+          </div>
+          <div class="order-2">
+            <img
+              src="@/assets/images/coworkingarea.jpg"
+              alt="Community Space"
+              class="rounded-xl shadow-lg w-full h-[300px] object-cover"
+            />
+          </div>
+          <div class="space-y-4 order-1">
+            <h2 class="text-2xl font-bold text-white">
+              Community Hall & Co-working Space
+            </h2>
+            <p class="text-purple-200">
+              The heart of Portal, where casual interactions and focused work
+              coexist. This space facilitates both individual work and
+              spontaneous collaborations among community members.
+            </p>
+            <ul class="text-purple-200 space-y-2">
+              <li class="flex items-center gap-2">
+                <span class="text-green-400">✦</span> Comfortable work stations
+              </li>
+              <li class="flex items-center gap-2">
+                <span class="text-green-400">✦</span> Meeting areas
+              </li>
+              <li class="flex items-center gap-2">
+                <span class="text-green-400">✦</span> Coffee and refreshments
               </li>
             </ul>
           </div>
@@ -115,45 +159,6 @@
               alt="Library Space"
               class="rounded-xl shadow-lg w-full h-[300px] object-cover"
             />
-          </div>
-        </div>
-
-        <!-- Community Space -->
-        <div class="grid md:grid-cols-3 gap-8 items-center">
-          <div class="order-2">
-            <img
-              src="@/assets/images/PortalHallArea.jpg"
-              alt="Community Space"
-              class="rounded-xl shadow-lg w-full h-[300px] object-cover"
-            />
-          </div>
-          <div class="order-2">
-            <img
-              src="@/assets/images/coworkingarea.jpg"
-              alt="Community Space"
-              class="rounded-xl shadow-lg w-full h-[300px] object-cover"
-            />
-          </div>
-          <div class="space-y-4 order-1">
-            <h2 class="text-2xl font-bold text-white">
-              Community Hall & Co-working Space
-            </h2>
-            <p class="text-purple-200">
-              The heart of Portal, where casual interactions and focused work
-              coexist. This space facilitates both individual work and
-              spontaneous collaborations among community members.
-            </p>
-            <ul class="text-purple-200 space-y-2">
-              <li class="flex items-center gap-2">
-                <span class="text-green-400">✦</span> Comfortable work stations
-              </li>
-              <li class="flex items-center gap-2">
-                <span class="text-green-400">✦</span> Meeting areas
-              </li>
-              <li class="flex items-center gap-2">
-                <span class="text-green-400">✦</span> Coffee and refreshments
-              </li>
-            </ul>
           </div>
         </div>
       </div>

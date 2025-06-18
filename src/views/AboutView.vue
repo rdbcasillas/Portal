@@ -197,37 +197,6 @@
             >
               <div class="relative w-32 h-32 mx-auto mb-6">
                 <img
-                  src="@/assets/images/harshitpic.png"
-                  alt="Team Member"
-                  class="w-full h-full object-cover rounded-full"
-                />
-                <div
-                  class="absolute inset-0 rounded-full border-2 border-purple-500/50 group-hover:border-purple-500 transition-colors duration-500"
-                ></div>
-              </div>
-              <h3 class="text-xl font-bold text-white text-center mb-2">
-                Harshit
-              </h3>
-              <p class="text-purple-100 text-center">
-                Everything Handler (only if mood)
-              </p>
-              <!-- Social links -->
-              <div class="flex justify-center space-x-4 mt-4">
-                <a
-                  href="https://in.linkedin.com/in/harshitagga"
-                  class="text-purple-300 hover:text-white transition-colors"
-                >
-                  LinkedIn
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="team-member group">
-            <div
-              class="relative overflow-hidden rounded-xl bg-indigo-800/30 backdrop-blur-sm p-8 border border-purple-500/30 hover:border-purple-500/60 transition-all duration-500"
-            >
-              <div class="relative w-32 h-32 mx-auto mb-6">
-                <img
                   src="@/assets/images/manasvipic.png"
                   alt="Team Member"
                   class="w-full h-full object-cover rounded-full"
@@ -316,35 +285,6 @@
                   class="text-purple-300 hover:text-white transition-colors"
                 >
                   X/Twitter
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="team-member group">
-            <div
-              class="relative overflow-hidden rounded-xl bg-indigo-800/30 backdrop-blur-sm p-8 border border-purple-500/30 hover:border-purple-500/60 transition-all duration-500"
-            >
-              <div class="relative w-32 h-32 mx-auto mb-6">
-                <img
-                  src="@/assets/images/kunalpic.jpeg"
-                  alt="Team Member"
-                  class="w-full h-full object-cover rounded-full"
-                />
-                <div
-                  class="absolute inset-0 rounded-full border-2 border-purple-500/50 group-hover:border-purple-500 transition-colors duration-500"
-                ></div>
-              </div>
-              <h3 class="text-xl font-bold text-white text-center mb-2">
-                Kunal
-              </h3>
-              <p class="text-purple-100 text-center">Self Exploration Coach</p>
-              <!-- Social links -->
-              <div class="flex justify-center space-x-4 mt-4">
-                <a
-                  href="https://www.linkedin.com/in/kunaaal/"
-                  class="text-purple-300 hover:text-white transition-colors"
-                >
-                  LinkedIn
                 </a>
               </div>
             </div>

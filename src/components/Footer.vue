@@ -8,6 +8,11 @@
           <p class="text-sm text-gray-300 mt-2">
             A space for wisdom, inquiry, and community.
           </p>
+          <address class="text-xs text-gray-400 mt-3 not-italic">
+            Portal, # 50, 7th cross, HMT Layout, RT Nagar,<br>
+            8th A Main, Chowdaiah Block, RT Nagar,<br>
+            Bengaluru, Karnataka 560032, India
+          </address>
         </div>
 
         <!-- Email Signup -->

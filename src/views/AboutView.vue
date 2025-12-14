@@ -31,7 +31,7 @@
         </div>
         <div class="mt-8 text-center">
           <a
-            href="/VisionForPortal.pdf"
+            href="/portal-vision-latest.pdf"
             target="_blank"
             class="inline-flex items-center gap-2 text-green-500 hover:text-green-400 transition-all duration-300"
           >
@@ -242,7 +242,7 @@
               <h3 class="text-xl font-bold text-white text-center mb-2">
                 Nishit
               </h3>
-              <p class="text-purple-100 text-center">EA Community Builder</p>
+              <p class="text-purple-100 text-center">Oliemannetje</p>
               <!-- Social links -->
               <div class="flex justify-center space-x-4 mt-4">
                 <a
